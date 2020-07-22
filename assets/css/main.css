@@ -300,6 +300,105 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
+	/* Container */
+
+		.container {
+			margin: 0 auto;
+			max-width: calc(100% - 4.5em);
+			width: 45em;
+		}
+
+			.container.xsmall {
+				width: 11.25em;
+			}
+
+			.container.small {
+				width: 22.5em;
+			}
+
+			.container.medium {
+				width: 33.75em;
+			}
+
+			.container.large {
+				width: 56.25em;
+			}
+
+			.container.xlarge {
+				width: 67.5em;
+			}
+
+			.container.max {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 1024px) {
+
+				.container {
+					width: 100% !important;
+				}
+
+			}
+
+			@media screen and (max-width: 480px) {
+
+				.container {
+					max-width: calc(100% - 3.375em);
+				}
+
+			}
+
+			/* Section/Article */
+
+				section.special, article.special {
+					text-align: center;
+				}
+
+				header p {
+					color: #aaa;
+					position: relative;
+					margin: 0 0 1.6875em 0;
+				}
+
+				header h2 + p {
+					font-size: 1.25em;
+					margin-top: -0.5em;
+					line-height: 1.5em;
+				}
+
+				header h3 + p {
+					font-size: 1.1em;
+					margin-top: -0.35em;
+					line-height: 1.5em;
+				}
+
+				header h4 + p,
+				header h5 + p,
+				header h6 + p {
+					font-size: 0.9em;
+					margin-top: -0.25em;
+					line-height: 1.5em;
+				}
+
+				header.major h2 {
+					color: #19A391;
+					font-size: 3.5em;
+				}
+
+					header.major h2 + p {
+						color: #777;
+						font-size: 1.75em;
+						font-weight: 700;
+						margin-top: -0.75em;
+					}
+
+					header.major i {
+						color: #777;
+						font-size: .65em;
+					}
+
+
 /* Form */
 
 	form {
@@ -719,6 +818,42 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Features */
+
+			.features article {
+				border-top: solid 3px #f4f4f4;
+				margin-bottom: 2.25em;
+				padding-top: 2.25em;
+			}
+
+				.features article:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+				.features article .image {
+					display: inline-block;
+					padding-right: 2.5em;
+					vertical-align: middle;
+					width: 48%;
+				}
+
+					.features article .image img {
+						display: block;
+						width: 100%;
+					}
+
+				.features article .inner {
+					display: inline-block;
+					vertical-align: middle;
+					width: 50%;
+				}
+
+					.features article .inner > :last-child {
+						margin-bottom: 0;
+					}
 
 /* List */
 
@@ -1550,6 +1685,14 @@ input, select, textarea {
 			border-radius: 4px;
 			opacity: 0;
 		}
+			#main article#work {
+				margin: 0;
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
 
 			#main article.active {
 				-moz-transform: translateY(0);
