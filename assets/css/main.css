@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 2rem 1rem;
 	}
 
 	h1, h2, h3, h4 {
@@ -780,7 +780,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
+			padding: 1em 1.5em 2em 0;
 			top: 0.25em;
 		}
 
@@ -1694,7 +1694,7 @@ input, select, textarea {
 		}
 			#main article#work {
 				margin: 0;
-				height: 100vh;
+				height: 200vh;
 				display: flex;
 				align-items: center;
 				justify-content: center;
