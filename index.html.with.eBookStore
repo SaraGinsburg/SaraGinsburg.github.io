@@ -87,7 +87,27 @@
 								</section>
 							</div>
 
-            
+                            <div>
+								<section>
+									<br>
+									<h3>eBookStore</h3>
+									<p>
+										<span class="image left">
+
+											<img src="images/bookstore1.jpg" alt>
+										</span>
+										eBookStore app
+										<br>
+										<br>Built with:  MongoDB, Node, React/Redux
+									</p>
+									<p>
+										<a href="https://github.com/SaraGinsburg/eBookStore">GitHub</a>
+										|
+										<a href="http://my-ebookstore.herokuapp.com">Demo |email: admin@gmail.com | Password: 1234</a>
+									</p>
+								</section>
+							</div>
+
 
 							<div>
 							<section>
